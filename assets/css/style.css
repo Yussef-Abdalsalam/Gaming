@@ -1,0 +1,1048 @@
+/* CSS file for the Gaming website */
+:root {
+    --secondary-color: #00DA80;
+    --linear-gradient: linear-gradient(90deg, #00D980 0%, #008F55 47.08%, #2BDF94 100%);
+    --success-color: #00BF61;
+    --green-color: #008F55;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*************** navbar styles *******************/
+.navbar {
+    background-color: #000 !important;
+}
+
+.w-10 {
+    width: 40px;
+}
+
+
+.nav-link.active {
+    color: #fff;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--success-color);
+}
+
+.list-iconn .btnn {
+    font-size: 20px;
+    padding: 0px 4px;
+    border: none;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.list-iconn .btnn:hover {
+    color: var(--success-color);
+}
+
+
+/*************** Header styles *******************/
+header {
+    position: relative;
+    height: calc(100vh - 61.8px);
+}
+
+.bg-img,
+.bg-img1,
+.bg-img2,
+.bg-img3,
+.bg-img4 {
+    height: calc(100vh - 61.8px);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.bg-img {
+    background-image: url('../imgs/1.png');
+}
+
+.bg-img1 {
+    background-image: url('../imgs/5.png');
+    background-position: top;
+}
+
+.bg-img2 {
+    background-image: url('../imgs/3.png');
+    background-position: top;
+
+}
+
+.bg-img3 {
+    background-image: url('../imgs/4.png');
+    background-position: top;
+
+}
+
+.bg-img4 {
+    background-image: url('../imgs/2.png');
+    background-position: top;
+}
+
+.btnhed {
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #2BDF94 0%, #008F55 47.08%, #00643c 100%);
+    color: #fff;
+    border: 3px solid var(--secondary-color);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    position: absolute;
+    padding: 15px 100px;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btnhed:hover {
+    background: var(--secondary-color);
+    border: 3px solid var(--green-color);
+}
+
+.coolr {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+
+.bg-clr {
+    margin-right: 0px;
+    background: linear-gradient(90deg, #000 0%, #000 47.08%, #008f562f 100%);
+}
+
+
+/*************** Modz styles *******************/
+.bg-blackk {
+    background-color: #00000000;
+}
+
+.wts {
+    width: 67% !important;
+    margin: 0 auto;
+}
+
+.card-text {
+    color: #fff;
+    font-size: 9px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.more button {
+    background: #000;
+    color: var(--secondary-color);
+    border-radius: 5px;
+    border: #fff 2px solid;
+    padding: 8px 40px;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.more button:hover {
+    background: linear-gradient(90deg, #00643c 0%, #008F55 47.08%, #2BDF94 100%);
+    color: #fff;
+    border: var(--secondary-color) 2px solid;
+
+}
+
+
+/*************** Build styles *******************/
+.bgclrr {
+    background: linear-gradient(90deg, #00643c 0%, #008F55 47.08%, #2BDF94 100%);
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.bgclrr .txt {
+    padding: 8rem 5rem 5rem 5rem;
+    text-transform: uppercase;
+}
+
+.bgclrr .txt h2 {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.bgclrr .txt p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 0;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.bgclrr .txt button {
+    background: #fff;
+    color: var(--success-color);
+    border: 3px solid var(--success-color);
+    border-radius: 1px;
+    padding: 10px 70px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.bgclrr .txt button:hover {
+    background: linear-gradient(90deg, #00643c 0%, #008F55 47.08%, #2BDF94 100%);
+    color: #fff;
+    border: 3px solid var(--success-color);
+}
+
+.img-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+
+/*************** Designs styles *******************/
+.bordr {
+    position: relative;
+    padding-bottom: 5rem;
+    padding-inline: 0px;
+    border: 3px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+.bordr img {
+    width: 100%;
+}
+
+.bordr .imgg {
+    height: 20rem;
+}
+
+.bordr .imgg img {
+    height: 100% !important;
+    width: 100%;
+}
+
+.skew-box {
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    right: 0;
+    background-color: var(--secondary-color);
+    transform: skewY(7deg);
+    padding: 40px;
+    margin: 50px 0 50px 0;
+    margin-left: -8rem;
+}
+
+.content {
+    transform: skewY(-7deg);
+    max-width: 300px;
+    margin: auto;
+}
+
+.bordr h2 {
+    background-color: black;
+    color: var(--secondary-color);
+    display: inline-block;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8px 10px;
+    font-weight: bold;
+}
+
+.bordr p {
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 600;
+    color: #004126;
+
+
+}
+
+.m-ato {
+    margin: auto !important;
+}
+
+/*************** Bring styles *******************/
+.txt2 {
+    padding: 3rem 2rem 3rem 2rem !important;
+    text-transform: uppercase;
+}
+
+.txt2 h2 {
+    color: #fff !important;
+    font-size: 75px;
+}
+
+.txt2 p {
+    color: #fff !important;
+    font-size: 40px !important;
+}
+
+.txt2 button {
+    border: #fff 0px solid !important;
+    padding: 1.5rem 15rem !important;
+}
+
+/*************** what’s  styles *******************/
+.immg0 {
+    width: 100%;
+}
+
+.immg0 img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -.8em;
+    object-fit: cover;
+}
+
+.bordr00 {
+    padding: 0;
+    line-height: 0;
+    border: 10px solid var(--secondary-color);
+}
+
+
+.immg1 img {
+    margin-top: 73%;
+    margin-left: -34% !important;
+    width: 190%;
+}
+
+.immg2 img {
+    margin-top: 1%;
+    margin-left: -55%;
+    transform: rotateY(180deg);
+    width: 190%;
+}
+
+/*************** offer styles *******************/
+.w-33 {
+    width: 33.33%;
+    height: 20rem !important;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid #fff;
+}
+
+.bgg1 {
+    background-image: url(../imgs/fo1.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-right: #fff 3px solid;
+}
+
+.bgg2 {
+    background-image: url(../imgs/fo2.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-right: #fff 3px solid;
+}
+
+.bgg3 {
+    background-image: url(../imgs/fo3.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.pll {
+    padding-left: 30.8%;
+}
+
+.btnhed1 {
+    padding: .2rem 2rem !important;
+    font-size: 18px !important;
+}
+
+
+
+
+
+
+
+
+/*************************************************************************************************/
+/* End of CSS file for the BUILD YOUR OWN website */
+/*************************************************************************************************/
+
+.bg-clrr {
+    background: radial-gradient(circle, var(--secondary-color), #00643cdc, #00643c07, #000);
+    color: #fff;
+    height: calc(100vh - 61.8px);
+    margin-top: 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.bg-immgg {
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/b1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.your-points {
+    transform: skewX(-35deg);
+}
+
+.points {
+    color: #fff;
+    background-color: var(--success-color);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 25px 0px 25px;
+    margin-left: -2.4rem;
+    max-width: 15rem;
+    text-align: center;
+    transform: skewX(35deg);
+}
+
+.points samp {
+    color: var(--success-color);
+    background-color: #fff;
+    padding: 0px 10px;
+}
+
+.cclr button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.cclr1 button {
+    background-color: #1490f5;
+    border: 2px solid #1490f5;
+}
+
+.cclr2 button {
+    background-color: #00DA80;
+}
+
+.cclr3 button {
+    background-color: red;
+}
+
+.cclr4 button {
+    background-color: yellow;
+}
+
+.cclr5 button {
+    background-color: #0a06f5;
+}
+
+.pozshn {
+    position: absolute;
+    bottom: 12%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    border: 4px solid var(--success-color);
+    border-radius: 1rem;
+    padding: 10px 10px 5px 10px;
+}
+
+.order11 h3,
+.order11 .pricee {
+    background-color: var(--success-color);
+    color: #fff;
+    margin: 0px;
+    font-weight: 700;
+    font-size: 24;
+    padding: 10px;
+    text-align: center;
+}
+
+.order11 .pricee {
+    margin-left: -2px;
+    text-align: start;
+    display: inline-block;
+
+}
+
+.m-000 {
+    margin-left: -10px !important;
+}
+
+.order11 {
+    background-color: var(--green-color);
+    margin-block: 10px;
+}
+
+.namee {
+    margin-bottom: 0px !important;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.bg-cclrr {
+    background-color: var(--secondary-color);
+    padding: 0px 0px;
+    height: 6rem;
+    margin: 0px !important;
+    border: 3px solid #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.bg-cclrr .imggg {
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/b1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-cclrr1 .imggg {
+    background-color: #1490f5;
+    background-image: none;
+}
+
+.order11 .total {
+    background-color: #f0efeff1 !important;
+    color: var(--green-color);
+}
+
+.CART,
+.ORDER1 {
+    background-color: #fff !important;
+    color: var(--success-color) !important;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 8px !important;
+    border-radius: 0px;
+    margin-block: 8px !important;
+    border: none;
+    cursor: pointer;
+
+}
+
+.bgg {
+    background-color: #fff;
+    padding: 4px 8px;
+}
+
+.borderrr {
+    border: 2px solid #fff;
+}
+
+.w-98 {
+    width: 95% !important;
+}
+
+/*************************************************************************************************/
+/* End of CSS file for the PRODUCTS website */
+/*************************************************************************************************/
+.bbgg {
+    background-color: var(--success-color);
+    border: 4px solid #fff;
+    border-radius: 1rem;
+    height: 40%;
+}
+
+.prdct {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.prodct {
+    text-align: center;
+    cursor: pointer;
+}
+
+.prodct h3 {
+    color: var(--success-color);
+    font-size: 15px;
+    padding: 6px 0px;
+    font-weight: 600;
+}
+
+.prodct p {
+    background-color: #fff;
+    color: var(--success-color);
+    display: inline-block;
+    padding: 2px 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.prodct2 h3,
+.prodct2 p,
+.prodct3 h3,
+.prodct3 p {
+    color: #fff;
+    background-color: inherit;
+}
+
+
+
+
+.btns button {
+    background-color: inherit;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.btns button:hover {
+    color: var(--secondary-color);
+}
+
+
+
+
+
+
+
+/* slider */
+.slider22 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.slider22 img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden !important;
+  
+}
+
+
+/* lodr */
+.preloader {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  background-color: #1615159c;
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .img-container {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    & img {
+      width: 120px;
+    }
+  }
+  & .img-container::before,
+  & .img-container::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  & .img-container::before {
+    width: 160px;
+    height: 160px;
+    border: 3px solid var(--green-color);
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    animation: logoRotate 1s linear infinite;
+    -webkit-animation: logoRotate 1s linear infinite;
+  }
+  & .img-container::after {
+    width: 200px;
+    height: 200px;
+    border: 3px solid var(--secondary-color);
+    border-top-color: transparent;
+    border-left-color: transparent;
+    background-color: rgba(17, 51, 24, 0.5);
+    z-index: -1;
+    border-bottom-color: transparent;
+    animation: logoRotate 1s linear reverse infinite;
+    -webkit-animation: logoRotate 1s linear reverse infinite;
+  }
+}
+
+@keyframes logoRotate {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+
+
+
+
+
+
+
+
+
+.w-90 {
+    width: 90% !important;
+    margin: auto;
+}
+
+
+
+
+
+
+
+/* ********************************* Media Queries ************************************** */
+
+@media (max-width: 1644px) {
+
+    .bgclrr .txt button {
+        padding: 10px 60px;
+        font-size: 46px;
+    }
+}
+
+
+@media (min-width: 1500px) {
+    .w-90 {
+        width: 93% !important;
+    }
+
+    .bordr9 {
+        font-size: 64px !important;
+    }
+
+}
+
+
+@media (max-width: 1500px) {
+    .w-90 {
+        width: 94% !important;
+    }
+
+    .bgclrr .txt button {
+        padding: 10px 50px;
+        font-size: 32px;
+    }
+
+    .bgclrr .txt p {
+        font-size: 18px;
+    }
+
+    .bordr1 .skew-box {
+        position: absolute;
+        bottom: -49%;
+        left: 0;
+        right: 0;
+        margin-left: -3rem;
+    }
+
+    .bordr9 {
+        font-size: 64px !important;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+    .nav-link {
+        margin-inline: .6rem;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .card-text {
+        font-size: 8px;
+    }
+
+    .bgclrr .txt button {
+        padding: 10px 35px;
+        font-size: 28px;
+    }
+
+    .bgclrr .txt p {
+        font-size: 15px;
+    }
+
+    .bgclrr .txt h2 {
+        font-size: 26px;
+    }
+
+
+    .txt2 h2 {
+        font-size: 50px !important;
+    }
+
+    .txt2 p {
+        font-size: 25px !important;
+    }
+
+    .txt2 button {
+        border: #fff 0px solid !important;
+        padding: 1.5rem 10.6rem !important;
+    }
+
+    .prdct {
+        position: relative;
+        left: 40%;
+        bottom: -70%;
+        transform: translate(-50%, 0);
+    }
+
+    .prdct img {
+        height: 100% !important;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    .prdct {
+        position: relative;
+        left: 40%;
+        bottom: -5%;
+        transform: translate(-50%, 0);
+    }
+
+    .points2 {
+        display: none;
+    }
+
+    .order11 {
+        margin: auto;
+        width: 50% !important;
+        height: 62vh !important;
+    }
+
+    .prdct {
+        bottom: 12%;
+    }
+
+    .order22 {
+        margin-top: -9rem;
+        width: 57% !important;
+        height: 55vh !important;
+    }
+
+    .w-90 {
+        width: 97% !important;
+    }
+
+    .bgclrr .txt p {
+        font-size: 20px;
+    }
+
+
+    .bordr1 .skew-box {
+        position: absolute;
+        bottom: -47%;
+        left: 0;
+        right: 0;
+        margin-left: -1rem;
+    }
+
+
+    .bordr9 {
+        font-size: 44px !important;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .order11 {
+        width: 57% !important;
+        height: 62vh !important;
+
+    }
+
+    .prdct {
+        bottom: 10%;
+    }
+
+    .prdct h3 {
+        font-size: 15px !important;
+    }
+
+    .order22 {
+        margin-top: -6rem;
+        width: 75% !important;
+        height: 55vh !important;
+    }
+
+    .w-90 {
+        width: 99% !important;
+    }
+
+    .btnhed {
+        font-size: 16px;
+        padding: 10px 50px;
+    }
+
+    .bordr1 .skew-box {
+        position: absolute;
+        bottom: -75%;
+        left: 0;
+        right: 0;
+        margin-left: -3rem;
+    }
+
+    .txt2 h2 {
+        font-size: 30px !important;
+    }
+
+    .txt2 p {
+        font-size: 16px !important;
+    }
+
+    .txt2 button {
+        padding: 1rem 3rem !important;
+    }
+
+    .btnhed1 {
+        padding: .2rem .5rem !important;
+        font-size: 14px !important;
+    }
+
+    .pozshn {
+        width: 90% !important;
+        padding: 5px 5px 0px 50px !important;
+        bottom: 20% !important;
+        left: 50% !important;
+    }
+
+    .points {
+        opacity: 0;
+    }
+
+    .bordr .imgg {
+        height: 15rem;
+
+    }
+
+
+
+}
+
+
+@media (max-width: 480px) {
+    .order11 {
+        width: 95% !important;
+        height: 65vh !important;
+    }
+
+    .prdct h3 {
+        font-size: 13px !important;
+    }
+
+    .prdct .bbgg {
+        border: #fff 2px solid;
+    }
+
+    .order22 {
+        margin-top: -5rem;
+        width: 95% !important;
+        height: 55vh !important;
+    }
+
+    .pozshn {
+        padding: 5px 5px 0px 5px !important;
+
+    }
+
+    .btnhed {
+        font-size: 14px;
+        padding: 8px 40px;
+    }
+
+    .w-90 {
+        width: 99% !important;
+    }
+
+    .bgclrr .txt h2 {
+        font-size: 28px;
+    }
+
+    .bgclrr .txt p {
+        font-size: 12px;
+    }
+
+
+    .txt2 h2 {
+        font-size: 24px !important;
+    }
+
+    .txt2 p {
+        font-size: 13px !important;
+    }
+
+    .txt2 button {
+        padding: 1rem 2rem !important;
+    }
+
+    .bordr9 {
+        font-size: 34px !important;
+    }
+
+    .btnhed1 {
+        padding: .2rem .4rem !important;
+        font-size: 13px !important;
+    }
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/imgs/logo.png">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Products</title>
+</head>
+
+<body>
+    <nav class="navbar  border-body bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid w-90 text-center">
+            <img src="./assets/imgs/logo.png" class="w-10" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse  navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-2 m-auto mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link  px-xxl-4 px-xl-3 px-lg-1" aria-current="page" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-xxl-4 px-xl-3 px-lg-1" href="./Bulld.html">BUILD YOUR OWN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active px-xxl-4 px-xl-3 px-lg-1 " href="./Products.html">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-xxl-4 px-xl-3 px-lg-1 " href="#">GIFT CARDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-xxl-4 px-xl-3 px-lg-1 " href="#">ACCESSORIES</a>
+                    </li>
+                </ul>
+                <div class="list-iconn">
+                    <button class="btnn" onclick="playSound()"  type="submit"><i class="fa-solid fa-headphones"></i></button>             
+                    <button onclick="logen()" class="btnn" type="submit"><i class="fa-solid fa-user"></i></button>
+                    <button class="btnn" type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- **************************HOME****************************** -->
+
+    <header class="w-90 bg-clrr">
+        <div id="bg-immgg" class="row bg-immgg wow bounceInUp " data-wow-duration="2s">
+
+            <div class="col-lg-3 mt-4">
+                <div class="points points2">
+                    <p class="your-points">YOUR POINTS 50 <samp>+15</samp></p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 position-relative">
+                <div class="row m-auto w-75 prdct">
+
+                    <div onclick="updateCart1()" class="col-4 prodct prodct1">
+                        <div class="bbgg overflow-hidden">
+                            <img class="w-100" src="./assets/imgs/b1.png" alt="">
+                        </div>
+                        <h3>Core controller</h3>
+                        <p>$59.99</p>
+                    </div>
+
+                    <div onclick="updateCart2()" class="col-4 prodct prodct2 ">
+                        <div class="bbgg overflow-hidden">
+                            <img class="w-100" src="./assets/imgs/p1.png" alt="">
+                        </div>
+                        <h3>Titan controller</h3>
+                        <p>$59.99</p>
+                    </div>
+
+                    <div onclick="updateCart3()" class="col-4 prodct prodct3 ">
+                        <div class="bbgg overflow-hidden">
+                            <img class="w-100" src="./assets/imgs/p2.png" alt="">
+                        </div>
+                        <h3>Tactical Controller</h3>
+                        <p>$59.99</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 m-auto mt-4">
+                <div class="order11 order22">
+                    <h3>YOUR ORDER</h3>
+                    <div class="w-98 m-auto">
+                        <div class="row m-0 ">
+
+                            <div class="row my-2">
+                                <div class="col-4 bg-cclrr pb-3">
+                                    <div class="imggg"></div>
+                                </div>
+                                <div class="col-8 m-000 pb-3">
+                                    <p class="namee fw-bold pt-2">CORE CONTROLLER</p>
+                                    <p class="pricee">59.99$</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="row gap-2 m-auto ">
+                            <h3 class="total mt-4 col-12">TOTAL: $59.99</h3>
+                            <h3 onclick="Ordar()" class="ORDER1 col">ORDER NOW</h3>
+                            <h3 onclick="Addcart()" class="CART col-6">ADD TO CART</h3>
+                            <div class="col-4 mb-2 borderrr"><img class="w-100" src="./assets/imgs/paypal.png" alt="">
+                            </div>
+                            <div class="col-4 mb-2 bgg"><img class="w-100 bg-white" src="./assets/imgs/klarna..png"
+                                    alt=""></div>
+                            <div class="col mb-2 bgg"><img class="w-100 bg-white" src="./assets/imgs/vlsa.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </header>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/wow.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/all.min.js"></script>
+    <script src="./assets/js/Products.js"></script>
+</body>
+
+</html>
